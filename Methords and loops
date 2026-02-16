@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>Javascript Methords and Loops</h1>
+    <p>Basic Methords</p>
+    <script>
+        var str = "AdVeNtUrE"
+        document.write(str.toUpperCase());
+        document.write("<br>")
+        document.write(str.toLowerCase());
+        document.write("<br>")
+        document.write(str.startsWith('A'));
+        document.write("<br>")
+        var str1 = "I learnt about Methods and Loops";
+        var patt = new RegExp("about");
+        var res = patt.test(str);
+        document.write(res);
+    </script>
+</body>
+
+</html>
